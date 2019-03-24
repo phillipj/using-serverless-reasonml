@@ -1,0 +1,6 @@
+.DS_Store
+.merlin
+.serverless
+lib/
+node_modules/
+src/**/*.js

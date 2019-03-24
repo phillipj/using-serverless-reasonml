@@ -1,0 +1,25 @@
+{
+  "name": "using-serverless-reasonml",
+  "version": "1.0.0",
+  "description": "A contrived example project using serverless-reasonml",
+  "main": "handler.js",
+  "scripts": {
+    "start": "serverless offline start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serverless",
+    "reasonml"
+  ],
+  "private": true,
+  "author": "Phillip Johnsen <johphi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ahrefs/bs-aws-lambda": "git+https://github.com/ahrefs/bs-aws-lambda.git",
+    "bs-platform": "4.0.14"
+  },
+  "devDependencies": {
+    "serverless": "1.39.1",
+    "serverless-reasonml": "1.0.3"
+  }
+}
